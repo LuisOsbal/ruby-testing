@@ -9,6 +9,7 @@ class Calculator
 	end
 
 	def division
+		raise ZeroDivisionError if @y == 0
 		@x / @y
 	end
 end
