@@ -12,4 +12,7 @@ class Calculator
 		raise ZeroDivisionError if @y == 0
 		@x / @y
 	end
+
+	def multiplication
+	end
 end

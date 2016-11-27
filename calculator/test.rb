@@ -25,4 +25,9 @@ class TestCalculator < MiniTest::Test
 			calculator.division()
 		end
 	end
+
+	def test_calculator_responds_to_multiplication
+		calculator = Calculator.new(10,0)
+		assert_respond_to calculator, "multiplication"
+	end
 end
