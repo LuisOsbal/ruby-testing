@@ -1,4 +1,7 @@
 class Calculator
+
+	attr_accessor :y
+	
 	def initialize(x,y)
 		@x = x.to_f
 		@y = y.to_f
